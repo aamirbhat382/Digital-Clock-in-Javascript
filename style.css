@@ -1,0 +1,42 @@
+* {
+  box-sizing: 0px;
+  margin: 0px;
+}
+body{
+    background-color: rgb(221, 204, 160);
+}
+
+
+
+
+.Date , .Time{
+font-weight: 600;
+color: green;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.wetch {
+  display: flex;
+  background-color: rgb(125, 196, 137);
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 56vh;
+}
+
+.dateTime {
+  margin: auto;
+  border: 2px solid rgb(163, 124, 199);
+  background-color: burlywood;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+}
+
+p span {
+  color: rgb(255, 0, 0);
+  font-style: italic;
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
